@@ -13,28 +13,40 @@ info:
  course_title: Foundations of Program Evaluation Part II
  course_number: CPP 524 
  course_level: Graduate 
- course_website: 'https://canvas.asu.edu/courses/56453'
- course_start_end_dates: July 1 to Aug. 11, 2020  
+ course_website: 'https://canvas.asu.edu/courses/76017'
+ course_start_end_dates: January 11 to March 2, 2021  
  course_prerequisites: CPP 523 or similar regression course
  class_meets_when:  Asynchronous  
- class_meets_where:  'https://asu.zoom.us/j/5933872545'
+ class_meets_where:  'https://asu.zoom.us/j/84210278039'
  review_sessions_when: TBD 
  review_sessions_where: Zoom
- discussion_board_url: 'https://ds4ps.org/cpp-524-sum-2020/help/'
+ discussion_board_url: 'https://ds4ps.org/cpp-524-spr-2021/help/'
 
 instructor:
--  name: Leonor Camarena, PhD
+-  name: Jesse Lecy
    title: Professor
-   email: lcamaren@asu.edu
-   office_location: 
-   website_url: https://leonorcamarena.wixsite.com/mysite
-   github_url: 'https://github.com/CamarenaL' 
+   email: jdlecy@asu.edu   
+   office_location: 'https://asu.zoom.us/j/9762065873'
+   website_url: http://www.lecy.info/
+   github_url: 'https://github.com/lecy' 
    twitter_url: 
-   scholar_url: 'https://scholar.google.com/citations?user=ldgyYjEAAAAJ&hl=en&authuser=1'
+   scholar_url: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en
    linked_in_url:
    office_hours_time: Flexible
    office_hours_location:  Zoom
-   office_hours_app_url:  'https://calendly.com/leonorcamarena/15min'
+   office_hours_app_url: 'https://calendly.com/lecy/30min'
+-  name: Courtney Stowers
+   title: Instructor
+   email: castower@asu.edu   
+   office_location: 
+   website_url: 
+   github_url: 'https://github.com/castower' 
+   twitter_url: 
+   scholar_url: 
+   linked_in_url: 'https://www.linkedin.com/in/courtney-stowers/'
+   office_hours_time: Flexible
+   office_hours_location:  Zoom 
+   office_hours_app_url: 'https://calendly.com/courtney-stowers'  
    
 
 textbooks:
