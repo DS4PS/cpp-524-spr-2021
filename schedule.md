@@ -147,7 +147,31 @@ And submit via Canvas.
 <br>
 
 
+*** { @unit = "FRI Jan 22nd", @title = "Final Project Step-01", @assignment, @foldout }
 
+<br>
+<br>
+
+## Final Project Overview 
+
+Your final project in this course is a memo that outlines a proposed research design that would be necessary to measure impact of a policy or program if a Randomized Control Trial is disallowed for practical or financial reasons (pedagogically because it solves many of your internal validity issues - this class is an opportunity to practice quasi-experimental approaches to causal inference). 
+
+## Step 01 - Pick Your Topic
+
+For the first step of your project you will fill out a one-page form to describe your proposed study with details on the program you will evaluate, the outcome of interest, and the population targetted by the program. 
+
+This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. This is graded as a pass / fail. 
+
+See page 4 of the project instructions PDF for an example of Step 01 memo format:
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/final-paper-instructions.pdf">Project Instructions</a>
+
+When you are complete:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step 01 - Pick Your Topic</a>
+
+<br>
+<br>
 
 
 
@@ -306,121 +330,7 @@ What has to be true for a control variable to make an effect disappear?
 
 
 
-*** { @unit = "FRI Jan 29th", @title = "Final Project Step-01", @assignment, @foldout }
-
-<br>
-<br>
-
-## Final Project Overview 
-
-Your final project in this course is a memo that outlines a proposed research design that would be necessary to measure impact of a policy or program if a Randomized Control Trial is disallowed for practical or financial reasons (pedagogically because it solves many of your internal validity issues - this class is an opportunity to practice quasi-experimental approaches to causal inference). 
-
-## Step 01 - Pick Your Topic
-
-For the first step of your project you will fill out a one-page form to describe your proposed study with details on the program you will evaluate, the outcome of interest, and the population targetted by the program. 
-
-This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. This is graded as a pass / fail. 
-
-See page 4 of the project instructions PDF for an example of Step 01 memo format:
-
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/final-paper-instructions.pdf">Project Instructions</a>
-
-When you are complete:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step 01 - Pick Your Topic</a>
-
-<br>
-<br>
-
-
-
-
-
-<!--- 
-######################################################
-####
-####      Week 3 - Campbell Scores
-####
-######################################################
--->
-
-** Week 3 - Campbell Scores 
-
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
-
-## Description 
-
-This unit introduces a framework for evaluating the internal validity of a study using a 10-item "Campbell Score". 
-
-The tool helps you develop the skill of reading research in a systematic fashion to identify the subtle details that impact research quality. In doing so it also helps you develop intuition about how to better design your own studies, and how to communicate study design to stakeholders. 
-
-## Learning Objectives
-
-After mastering Campbell Scores you will be able to:
-
-* Identify weaknesses in the design or implementation of evaluation studies that pose threats to internal validity and can possibly undermine the results. 
-* More efficiently read evaluation studies by knowing specific tests the author should present to make their case. 
-* Develop intuition about how to best design your own evaluation studies and how to package the description of your research design so that it is accessible to others. 
-
-<br>
-<br>
-
-
-## Lecture Materials
-
-
-### From Last Week 
-
-[Introduction to Counterfactuals](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
-
-[Tests for CF Validity](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf) 
-
-[The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
-
-### New This Week 
-
-[Campbell Scores Overview](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-07-campbell-scores-v2.pdf)
-
-[Campbell Scores Examples](https://ds4ps.org/cpp-524-spr-2020/lectures/CampbellScore.html)
-
-<br>
-<br>
-
-
-*** { @unit = "TUES Feb 2nd", @title = "LAB 03", @assignment, @foldout  }
-
-<br>
-
-# Lab 03 - Campbell Scores 
-
-This lab is a chance to practice an essential skill in evaluation - critical evaluation of research design to assess the strength of claims made by the study. 
-
-You will be reviewing the following chapters from *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.*:
-
-[CH7 Post-Test Only Estimator](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH7-hospital-follow-up-care.pdf)
-
-[CH8 Pre-Post with Comparison](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH8-energy-savings.pdf)
-
-[CH11 Reflexive Study Design](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH11-nutrition-behavior-change.pdf) 
-
-You will report the result for each item of the Campbell Score for each study and give your reasoning for the score on each item (a +1 if the threat to validity or competing hypothesis is adequately neutralized in the study, and +0 if the threat was not eliminated). Here are some example solutions based upon CH5 that you reviewed for the first lab.  
-
-[Example Solution](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/Campbell-Scores-CH5%20-SOLUTIONS.pdf)
-
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/campbell-score-instructions.pdf">Campbell Score Instructions</a>
-
-When you are complete:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
-
-<br>
-<br>
-
-
-
-
-
-*** { @unit = "FRI Feb 5th", @title = "Final Project Step-02", @assignment, @foldout }
+*** { @unit = "FRI Jan 29th", @title = "Final Project Step-02", @assignment, @foldout }
 
 <br>
 <br>
@@ -563,6 +473,132 @@ Useful background reading or reference chapters:
 
 
 
+
+
+
+<!--- 
+######################################################
+####
+####      Week 3 - Campbell Scores
+####
+######################################################
+-->
+
+** Week 3 - Campbell Scores 
+
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
+
+## Description 
+
+This unit introduces a framework for evaluating the internal validity of a study using a 10-item "Campbell Score". 
+
+The tool helps you develop the skill of reading research in a systematic fashion to identify the subtle details that impact research quality. In doing so it also helps you develop intuition about how to better design your own studies, and how to communicate study design to stakeholders. 
+
+## Learning Objectives
+
+After mastering Campbell Scores you will be able to:
+
+* Identify weaknesses in the design or implementation of evaluation studies that pose threats to internal validity and can possibly undermine the results. 
+* More efficiently read evaluation studies by knowing specific tests the author should present to make their case. 
+* Develop intuition about how to best design your own evaluation studies and how to package the description of your research design so that it is accessible to others. 
+
+<br>
+<br>
+
+
+## Lecture Materials
+
+
+### From Last Week 
+
+[Introduction to Counterfactuals](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
+
+[Tests for CF Validity](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf) 
+
+[The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
+
+### New This Week 
+
+[Campbell Scores Overview](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-07-campbell-scores-v2.pdf)
+
+[Campbell Scores Examples](https://ds4ps.org/cpp-524-spr-2020/lectures/CampbellScore.html)
+
+<br>
+<br>
+
+
+*** { @unit = "TUES Feb 2nd", @title = "LAB 03", @assignment, @foldout  }
+
+<br>
+
+# Lab 03 - Campbell Scores 
+
+This lab is a chance to practice an essential skill in evaluation - critical evaluation of research design to assess the strength of claims made by the study. 
+
+You will be reviewing the following chapters from *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.*:
+
+[CH7 Post-Test Only Estimator](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH7-hospital-follow-up-care.pdf)
+
+[CH8 Pre-Post with Comparison](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH8-energy-savings.pdf)
+
+[CH11 Reflexive Study Design](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH11-nutrition-behavior-change.pdf) 
+
+You will report the result for each item of the Campbell Score for each study and give your reasoning for the score on each item (a +1 if the threat to validity or competing hypothesis is adequately neutralized in the study, and +0 if the threat was not eliminated). Here are some example solutions based upon CH5 that you reviewed for the first lab.  
+
+[Example Solution](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/Campbell-Scores-CH5%20-SOLUTIONS.pdf)
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/campbell-score-instructions.pdf">Campbell Score Instructions</a>
+
+When you are complete:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+
+<br>
+<br>
+
+
+
+
+*** { @unit = "FRI Feb 5th", @title = "Final Project Step-03", @assignment, @foldout }
+
+<br>
+<br>
+
+## Step 03 - Theory of Change
+
+Each program has a theory of change that is used to articulate the intended program steps and the relationships between program activities and client outcomes. 
+
+For this step you will learn how to diagram a theory of change and describe your program elements. 
+
+Before completing Step 03, read the following documents that describe the theory of change methodology. Start with an example that walks through the steps for a specific program:
+ 
+* [Example of a TOC Design: The Superwoman Program](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/superwoman-program-theory-of-change.pdf)  
+
+Then read the guide to creating a theory of change: 
+
+* [Building a Theory of Change (summary)](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-methodology.pdf)   
+* [Building a Theory of Change (full version)](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-guide.pdf)  
+
+*These steps are marked for feedback but not graded.*
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/step-03-theory-of-change.pdf">Step-03 Instructions</a>
+
+When you are complete submit your section draft:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
+
+
+You may find these additional background readings helpful: 
+
+* [Additional Guides to Using a Theory of Change](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-readings.zip)
+
+<br>
+<br>
+
+
+
+
+
 <!--- 
 ######################################################
 ####
@@ -636,83 +672,8 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Feb 12th", @title = "Final Project Step-03", @assignment, @foldout }
 
-<br>
-<br>
-
-## Step 03 - Theory of Change
-
-Each program has a theory of change that is used to articulate the intended program steps and the relationships between program activities and client outcomes. 
-
-For this step you will learn how to diagram a theory of change and describe your program elements. 
-
-Before completing Step 03, read the following documents that describe the theory of change methodology. Start with an example that walks through the steps for a specific program:
- 
-* [Example of a TOC Design: The Superwoman Program](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/superwoman-program-theory-of-change.pdf)  
-
-Then read the guide to creating a theory of change: 
-
-* [Building a Theory of Change (summary)](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-methodology.pdf)   
-* [Building a Theory of Change (full version)](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-guide.pdf)  
-
-*These steps are marked for feedback but not graded.*
-
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/step-03-theory-of-change.pdf">Step-03 Instructions</a>
-
-When you are complete submit your section draft:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
-
-
-You may find these additional background readings helpful: 
-
-* [Additional Guides to Using a Theory of Change](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-readings.zip)
-
-<br>
-<br>
-
-
-
-
-
-
-<!--- 
-######################################################
-####
-####      Week 5 - Research Design Projects 
-####
-######################################################
--->
-
-
-** Week 5 - Research Design Projects 
-
-
-
-*** { @unit = "", @title = "Overview", @foldout }
-
-<br>
-
-## Final Projects
-
-You have two final assignments for the class. The most important one is the hypothetical research design described under the **Research Design Paper** assignment. You will be asked to serve as an outside expert to help an evaluation team architect a valid and robust impact study of one of their programs. 
-
-The **Final Lab** will consist of as assessment of the size of the gender pay gap in the nonprofit sector. You will be asked to run three models, all estimating the pay gap. You then need to explain the weaknesses of each model using content fro this term, and make a case for which model you belive to be the least biased and most accurate representation of the true pay gap in the nonprofit sector. 
-
-See the instruction for details. 
-
-## Office Hours
-
-At this point you should have feedback on your research design memo and practice with internal validity from the Campbell Scores. Schedule office hours if you need help selecting an appropriate counterfactual (reflexive, post-test only, or pre-post with comparison) or have other clarifying questions to discuss. You are close to the end of the semester, so now is the time to get input!  
-
-<br>
-<br>
-
-
-
-
-*** { @unit = "FRI Feb 19th", @title = "Final Project Step-04", @assignment, @foldout }
+*** { @unit = "FRI Feb 12th", @title = "Final Project Step-04", @assignment, @foldout }
 
 <br>
 <br>
@@ -744,21 +705,40 @@ When you are complete submit your section draft:
 
 
 
-
-
-
 <!--- 
 ######################################################
 ####
-####      Week 6 - Wrap-Up
+####      Week 5 - Research Design Projects 
 ####
 ######################################################
 -->
 
-** Week 6 - Wrap-Up   
+
+** Week 5 - Final Lab  
 
 
-*** { @unit = "TUES Feb 23rd", @title = "LAB 05", @assignment, @foldout }
+
+*** { @unit = "", @title = "Overview", @foldout }
+
+<br>
+
+## Final Projects
+
+You have two final assignments for the class. The most important one is the hypothetical research design described under the **Research Design Paper** assignment. You will be asked to serve as an outside expert to help an evaluation team architect a valid and robust impact study of one of their programs. 
+
+The **Final Lab** will consist of as assessment of the size of the gender pay gap in the nonprofit sector. You will be asked to run three models, all estimating the pay gap. You then need to explain the weaknesses of each model using content fro this term, and make a case for which model you belive to be the least biased and most accurate representation of the true pay gap in the nonprofit sector. 
+
+See the instruction for details. 
+
+## Office Hours
+
+At this point you should have feedback on your research design memo and practice with internal validity from the Campbell Scores. Schedule office hours if you need help selecting an appropriate counterfactual (reflexive, post-test only, or pre-post with comparison) or have other clarifying questions to discuss. You are close to the end of the semester, so now is the time to get input!  
+
+<br>
+<br>
+
+
+*** { @unit = "TUES Feb 16th", @title = "LAB 05", @assignment, @foldout }
 
 <br>
 <br>
@@ -783,7 +763,30 @@ You will see that the pay gap will change when you change the estimator. The goa
 
 
 
-*** { @unit = "FRI Feb 26th", @title = "Research Design Memo", @assignment, @foldout }
+
+
+
+
+
+
+
+
+
+
+<!--- 
+######################################################
+####
+####      Week 6 - Wrap-Up
+####
+######################################################
+-->
+
+** Week 6 - Research Design Memo  
+
+
+
+
+*** { @unit = "TUE Feb 23rd", @title = "Research Design Memo", @assignment, @foldout }
 
 <br>
 <br>
