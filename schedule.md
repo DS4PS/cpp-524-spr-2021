@@ -113,7 +113,7 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 
 
-*** { @unit = "WED Jul 8th", @title = "LAB 01", @assignment, @foldout   }
+*** { @unit = "TUES Jan 19th", @title = "LAB 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
@@ -227,7 +227,7 @@ We rarely have the resources or opportunity to utilize Randomized Control Trials
 
 
 
-*** { @unit = "WED Jul 15th", @title = "LAB 02", @assignment, @foldout }
+*** { @unit = "TUES Jan 26th", @title = "LAB 02", @assignment, @foldout }
 
 
 <br>
@@ -306,7 +306,7 @@ What has to be true for a control variable to make an effect disappear?
 
 
 
-*** { @unit = "FRI Jul 17th", @title = "Final Project Step-01", @assignment, @foldout }
+*** { @unit = "FRI Jan 29th", @title = "Final Project Step-01", @assignment, @foldout }
 
 <br>
 <br>
@@ -387,7 +387,7 @@ After mastering Campbell Scores you will be able to:
 <br>
 
 
-*** { @unit = "WED Jul 22nd", @title = "LAB 03", @assignment, @foldout  }
+*** { @unit = "TUES Feb 2nd", @title = "LAB 03", @assignment, @foldout  }
 
 <br>
 
@@ -420,7 +420,7 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Jul 24th", @title = "Final Project Step-02", @assignment, @foldout }
+*** { @unit = "FRI Feb 5th", @title = "Final Project Step-02", @assignment, @foldout }
 
 <br>
 <br>
@@ -601,7 +601,7 @@ Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation
 
 
 
-*** { @unit = "WED Jul 29th", @title = "LAB 04", @assignment, @foldout  }
+*** { @unit = "TUES Feb 9th", @title = "LAB 04", @assignment, @foldout  }
 
 <br>
 <br>
@@ -636,7 +636,7 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Jul 31st", @title = "Final Project Step-03", @assignment, @foldout }
+*** { @unit = "FRI Feb 12th", @title = "Final Project Step-03", @assignment, @foldout }
 
 <br>
 <br>
@@ -712,7 +712,7 @@ At this point you should have feedback on your research design memo and practice
 
 
 
-*** { @unit = "FRI Aug 7th", @title = "Final Project Step-04", @assignment, @foldout }
+*** { @unit = "FRI Feb 19th", @title = "Final Project Step-04", @assignment, @foldout }
 
 <br>
 <br>
@@ -747,20 +747,18 @@ When you are complete submit your section draft:
 
 
 
-
-
 <!--- 
 ######################################################
 ####
-####      Week 6 - Research Design Projects 
+####      Week 6 - Final Lab
 ####
 ######################################################
 -->
 
-** Week 6 - Research Design Projects 
+** Week 6 - Final Lab  
 
 
-*** { @unit = "", @title = "LAB 05", @assignment, @foldout }
+*** { @unit = "TUES Feb 23rd", @title = "LAB 05", @assignment, @foldout }
 
 <br>
 <br>
@@ -785,7 +783,24 @@ You will see that the pay gap will change when you change the estimator. The goa
 
 
 
-*** { @unit = "TUE Aug 11th", @title = "Research Design Memo", @assignment, @foldout }
+
+
+
+
+<!--- 
+######################################################
+####
+####      Week 7 - Research Design Projects 
+####
+######################################################
+-->
+
+** Week 7 - Research Design Projects 
+
+
+
+
+*** { @unit = "MON March 1st", @title = "Research Design Memo", @assignment, @foldout }
 
 <br>
 <br>
