@@ -17,14 +17,14 @@ brand:
 
 # Site subpath, e.g. /blog
 url :               "https://ds4ps.github.io"
-baseurl:            "/cpp-524-sum-2020"
-course_url:         "http://ds4ps.org/cpp-524-sum-2020/"
+baseurl:            "/cpp-524-spr-2021"
+course_url:         "http://ds4ps.org/cpp-524-spr-2021/"
 
 github_info:
     username:          DS4PS # Github location of the course
     branch:            master
-    website-repo:      cpp-524-sum-2020
-    course-repo:       cpp-524-sum-2020
+    website-repo:      cpp-524-spr-2021
+    course-repo:       cpp-524-spr-2021
     
 
 # header color set at assets/css/custom.css under default_nav and footer background-color
