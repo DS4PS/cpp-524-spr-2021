@@ -750,12 +750,12 @@ When you are complete submit your section draft:
 <!--- 
 ######################################################
 ####
-####      Week 6 - Final Lab
+####      Week 6 - Wrap-Up
 ####
 ######################################################
 -->
 
-** Week 6 - Final Lab  
+** Week 6 - Wrap-Up   
 
 
 *** { @unit = "TUES Feb 23rd", @title = "LAB 05", @assignment, @foldout }
@@ -783,24 +783,7 @@ You will see that the pay gap will change when you change the estimator. The goa
 
 
 
-
-
-
-
-<!--- 
-######################################################
-####
-####      Week 7 - Research Design Projects 
-####
-######################################################
--->
-
-** Week 7 - Research Design Projects 
-
-
-
-
-*** { @unit = "MON March 1st", @title = "Research Design Memo", @assignment, @foldout }
+*** { @unit = "FRI Feb 26th", @title = "Research Design Memo", @assignment, @foldout }
 
 <br>
 <br>
@@ -831,6 +814,43 @@ By the time you are done writing up details you will likely have 10 to 20 pages 
 -------
 
 
+
+
+
+
+<!--- 
+######################################################
+####
+####      Week 7 - Research Design Projects 
+####
+######################################################
+-->
+
+** Week 7 - Final Exam 
+
+
+
+*** { @unit = "", @title = "Overview", @foldout }
+
+<br>
+
+## Final Exam
+
+
+
+
+*** { @unit = "FEB 27 - MARCH 2", @title = "Final Exam Open", @assignment, @foldout }
+
+The final exam will be open from Saturday Feb 27th to Tuesday March 2nd. 
+
+You will have 2 hours to complete the exam once you start, but you cannot start, pause, and come back to it. 
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">BEGIN FINAL EXAM</a>
+
+
+<br>
+<br>
+<br>
 
 
 
