@@ -38,7 +38,7 @@ instructor:
 -  name: Courtney Stowers
    title: Instructor
    email: castower@asu.edu   
-   office_location: 
+   office_location: 'https://asu.zoom.us/j/7422653906'
    website_url: 
    github_url: 'https://github.com/castower' 
    twitter_url: 
