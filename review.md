@@ -2,10 +2,10 @@
 layout: default
 
 session:
-- week0: 'https://asu.zoom.us/rec/share/S9f4_FfCJMMbgzJlzh21IfhZ8zbbHwAwmSzXnAiLpue9k22h8M9HIceNQd7Hkh4.-DB46bIIRmW71PYY'
+  week0: 'https://asu.zoom.us/rec/share/S9f4_FfCJMMbgzJlzh21IfhZ8zbbHwAwmSzXnAiLpue9k22h8M9HIceNQd7Hkh4.-DB46bIIRmW71PYY'
 
 password: 
-- week0: '#Myh6Xy!'
+  week0: '#Myh6Xy!'
 
 ---
 
