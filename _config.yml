@@ -38,6 +38,8 @@ header:
   url: https://canvas.asu.edu/courses/76017/assignments/1888980
 - title: Resources 
   url: resources/
+- title: Review Sessions 
+  url: review/
 - title: Get Help
   url: help/
 
