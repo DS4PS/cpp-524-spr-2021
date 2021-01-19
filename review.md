@@ -3,9 +3,11 @@ layout: default
 
 session:
   week0: 'https://asu.zoom.us/rec/share/S9f4_FfCJMMbgzJlzh21IfhZ8zbbHwAwmSzXnAiLpue9k22h8M9HIceNQd7Hkh4.-DB46bIIRmW71PYY'
+  week1: 'https://asu.zoom.us/rec/share/NAMz6VZLnbFLocoEjMSDvJTp0aq0QC9KqtRgcdd74qBH5N8g8uMXJoYHLsCIj2yw.K41RJVgwFdlsVLLR'
 
 password: 
   week0: '#Myh6Xy!'
+  week1: 'm5sJY$cm'
 
 ---
 
@@ -81,18 +83,12 @@ Introduction to the Course
 ## Week 1 - Mon Jan 18th
   
 <p align="center">
-  <a href="">
+  <a href="{{ page.session.week1 }}">
   <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
   <a>
-  <br> Passcode: <b></b>
+  <br> Passcode: <b> {{ page.password.week1 }} </b>
     
   <br>
-
-  <a class="uk-button uk-button-default" href="" target="_blank">SAMPLE CODE</a>
-
-  <br>
-
-  <a class="uk-button uk-button-default" href="" target="_blank">SESSION CODE</a>
 
 </p>
 
