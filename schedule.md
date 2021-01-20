@@ -383,6 +383,7 @@ Get familiar with existing valid instruments used frequently in social sciences.
 - [Grit (Duckworth index)](http://freakonomics.com/podcast/grit/) [ [questions](https://angeladuckworth.com/grit-scale/) ] [ [benchmarks & reliability](https://www.dropbox.com/s/0y545gn2withb5e/DuckworthPetersonMatthewsKelly_2007_PerseveranceandPassion.pdf?dl=0) ] 
 - [The Big Five (personality index)](https://www.psychologytoday.com/us/blog/give-and-take/201309/goodbye-mbti-the-fad-won-t-die) [ [questions & benchmarks](https://openpsychometrics.org/tests/IPIP-BFFM/) ] [ [scoring](https://ipip.ori.org/new_ipip-50-item-scale.htm) ] 
 
+*Select a different instrument if you have done this exercise in another class, or find an instrument not mentioned here.*
 
 **(2) Complete the questionaire and calculate your score using the instructions provided for each instrument.**
 
@@ -440,7 +441,21 @@ As a professional evaluator, if you are ever hired to work in a new field you wi
 Save a PDF of the academic article that describes the instrument. Submit this with your answers to questions 1-3. 
 
 
+**PART THREE: CPP 523 REVIEW**
 
+**Question 1:**
+
+How does measurement error in the DEPENDENT VARIABLE impact your estimate of program impact? 
+
+**Question 2:**
+
+How does measurement error in the POLICY VARIABLE impact your estimate of program impact? 
+
+For example, classroom size is taken from administrative records from the first day of class, but a few students change sections in the second week so actual classroom size throughout the year might be off by a few.
+
+**Question 3:**
+
+Does the alpha metric (like Cronbach's alpha) describe measurement error in a variable? 
 
 ------
 
