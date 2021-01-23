@@ -231,15 +231,15 @@ This lab focuses on the resources question - are there differences in the financ
 
 This is an example of **establishing study group equivalence**, which is a prerequisite for valid inferences for some (but not all) of the estimators you will learn in this class. 
 
-The reason randomization is powerful is because it generates equivalent treatment and control groups since randomization ensures that proportions of observed and unobserved traits (gender, age, etc.) are the same in each group. This ensures that the only difference between the groups is the treatment, which is what allows us to interpret performance differences in the post-treatment period as treatment or program effects. Since all other group characteristics are identical, none of them should explain the outcome. The test for “happy randomization” in RCTs is a test of group equivalence. 
+The reason randomization is powerful is because it generates equivalent treatment and control groups since randomization ensures that proportions of observed **and unobserved** traits (gender, age, etc.) are the same in each group. This ensures that the only difference between the groups is the treatment, which is what allows us to interpret performance differences in the post-treatment period as treatment or program effects. Since all other group characteristics are identical, none of the other participant characteristics would explain the outcome. The test for “happy randomization” in RCTs is a test of group equivalence. 
 
 As such, this example will focus on the second theory of performance differences – the resources that the entrepreneurs bring to the table. 
 
-The test for group equivalence prior to the nonprofit launch will show us whether male and female entrepreneurs in the nonprofit sector have similar experience, financing and support to carry them through the process. 
+The test for group equivalence prior to the nonprofit launch will show us whether male and female entrepreneurs in the nonprofit sector have similar experience, financing, and support to carry them through the process. 
 
-If they are equivalent then any performance differences between organizations started by men and organizations started by women are more likely to be driven more by behavioral considerations than structural ones. We can eliminate resources as an explanation and focus on ways in which women approach or experience the start-up process that is different from men. 
+If they are equivalent then any performance differences between organizations started by men and organizations started by women are more likely to be driven more by unmeasured behavioral traits that observable characteristics like years of experience or savings. We can eliminate resources as an explanation and focus on ways in which women approach or experience the start-up process differently from men. 
 
-The lab will show you how to compare characteristics of two groups in a study to establish equivalence. 
+The lab demonstrates **how to compare characteristics of two groups to establish equivalence**. 
 
 
 <br>
@@ -256,11 +256,9 @@ The lab will show you how to compare characteristics of two groups in a study to
 
 A **contrast** is a **statistical comparison** of means of two groups. 
 
-In regular mathematics, if we say a cup of flour weighs the same as 0.79 cups of sugar, then we are claiming the weight is the same for the measured amounts of both ingredients (in chemistry these measures have to be extremely precise). 
+In a natural sciences context, the claim that a cup of flour weighs the same as 0.79 cups of sugar means that the weights of the precise volumes of the two substances is identical. We can test group the equivalence of the weights either by using a precise scale and comparing the results, or using a calibrated balance. For the weights to be equivalent they need to be mathematically identical (with error smaller than whatever decimal level is needed for the study).   
 
-In physics, we can establish that all objects travel the same speed when falling through a vacuum using mathematical proofs. Theoretically the velocity the same number. 
-
-In statistics the statement that two groups are the same implies that there are mathematical differences in group means (it is rare to get precisely the same group means in samples), but **there are NO statistically significant differences** of the group means. 
+In applied statistics, however, the statement that two groups are equivalent does NOT mean that groups are mathematically identical (it is rare to get precisely the same group means in samples), but rather that **there are NO statistically significant differences** of the group means. 
 
 
 For example, in this instance the average age of male and female founders differs by a year or two:
@@ -432,7 +430,7 @@ ggplot( d, aes( x=Age, fill=Gender )) +
 ```
 
 
-But when we test for significance we find that the contrast is not statistically significant:
+But when we test for significance we find that the contrast is NOT statistically significant:
 
 
 ```{r}
@@ -441,15 +439,17 @@ t.test( Age ~ Gender, data=d )
 
 Specifically, the p-value of the t-test is greater that 0.05. 
 
+Thus male and female entrepreneurs in the study have equivalent ages. 
+
 ----  
 
-Make a mental note that **statistically identical** is different than **mathematically identical**.
+Make a mental note that **statistically equivalent** is different than **mathematically identical**.
 
-Randomization produces statistically identical treatment and control groups, not mathematically identical groups (the observed means of the two groups will still differ by small amounts). 
+Randomization produces statistically equivalent treatment and control groups, not mathematically identical groups (the observed means of the two groups will still differ by small amounts). 
 
 The contrast, then, is a **comparison of group means with a test for significance**. 
 
-Contrasts are typically reported in a table by listing the two means, reporting their differences, and either reporting p-values associated with the differences or including starts that signal significant differences. In some cases the t-statistic is reported instead of the p-value, but the rule of thumb is that a t-stat over 2 implies statistical significance at the alpha=0.05 level (a 95% confidence interval). 
+Contrasts are typically reported in a table by listing the two means, reporting their differences, and either reporting p-values associated with the differences or including starts that signal significant differences. *In some cases the t-statistic is reported instead of the p-value, but the rule of thumb is that a t-stat over 2 implies statistical significance at the alpha=0.05 level (a 95% confidence interval).* 
 
 ![](figures/group-equivalence-table.png)
 
@@ -468,22 +468,30 @@ The problem with omitted variables is we don't always know what they even are, s
 ## Contrasts with Categorical Variables 
 
 
-When examining group composition it is common to include traits like race and gender that are categorical and not continuous. 
+When examining group composition it is common to include traits like race and gender that are categorical and not numerical measures. 
 
 T-tests are used to conduct a contrasts when measures are continuous, but they do not work when the variable is categorical (how would you calculate the average of four categories of race?).
 
 When variables are categorical we will instead use a chi-square test. It is a common **test for independence of factor levels** in statistics. 
 
-What do we mean by a test for independence? 
+**Tests for independence**
+
+What do we mean by a test for the independence of two variables? 
 
 Recall the meaning of statistical significance in the regression context. If the slope coefficient is significant then knowing information about the treatment (milligrams of caffeine consumed) should give you information about the outcome (heart rate). 
 
 ![](figures/yhat-and-significance.png)
 
 
-If we know nothing about caffeine intake then our best guess for a person's heart rate is the average heart rate of all people in the sample. 
+Heart rate depends on caffeine intake if the two variables are related. 
 
-If our model is meaningful (the slope is significant) then our best guess for a person's heart rate is the average of all individuals that consumed the same amount of caffeine, or the predicted value of Y for a level of X (the point on the regression line). 
+If we have no information about caffeine intake of each participant then our best guess for a person's heart rate is the average heart rate of all people in the sample (the blue line, y-bar). 
+
+If our model is meaningful (the slope is statistically significant) then our best guess for a person's heart rate is the average of all individuals that consumed the same amount of caffeine, or the predicted value of Y for a level of X (the point on the red regression line). 
+
+When factors are independent then knowing additional information about X tells us nothing about Y. In the case on the left we could do just as well guessing the average heart rate for each case instead of using the regression line. 
+
+When factors are dependent, then information about X should tell us something about the expected value of Y. The regression line on the right is a much better estimate of heart rate for most cases than the average heart rate of the group (the blue line). 
 
 ![](figures/predicted-y.png)
 
@@ -491,9 +499,13 @@ For any given individual this distance from their actual heart rate to the regre
 
 ![](figures/explained-variance.png)
 
+**Independence of categorical variables**
+
 So let's apply this same predictive reasoning to understand the meaning of a test for independence. 
 
-This example uses data about hair color and eye color from 592 individuals to test the independence of these two traits. We would create a cross-tab of the two traits using `table( hair, eyes )` in order to produce a table like the one stored in the vcd package:
+This example uses data about hair color and eye color from 592 individuals to test the independence of these two traits. 
+
+To examine the relationship between the two variables we would create a cross-tab of the two traits using `table( hair, eyes )` to produce one similar to the table stored in the vcd package:
 
 
 ```{r}
@@ -516,20 +528,19 @@ m %>% pander()
 
 ```
 
-What does it mean for the categorical variables to be **independent**? 
+What does it mean for the categorical variables of hair color and eye color to be **independent**? 
 
-Similar to the regression model above, if the slope coefficient for caffeine is not statistically significant than the y-hat values from the regression model will do no better than simply using y-bar from the population.
+Similar to the regression model above, if the slope coefficient for caffeine is not statistically significant than the y-hat values from the regression model will do no better than simply using y-bar from the population. The factors are independent. 
 
-In this example we are trying to predict eye color. If we have no information other than sample characteristics then we should guess the modal value, which is brown in this case: 
+In this example we are trying to predict eye color. If we have no information other than sample characteristics then we should guess the modal value, brown eyes, for every case: 
 
 ```{r}
 apply( m, MARGIN=2, FUN=sum )
 ```
 
+If the factors are independent, then each group of people with a different hair color should all have proportionally similar numbers of brown-eyed individuals, blue-eyed individuals, hazel and green. But we see that is not in fact the case. 
 
-If hair color and eye color are correlated, then knowing something about hair color would give us additional information about eye color. If so, then these variables are NOT independent.
-
-If so, then the groups with different hair colors should all have proportionally similar numbers of brown-eyed indivdiduals, blue-eyed individuals, hazel and green. But we see that is not in fact the case - there should be approximately 37% of each group with brown eyes but we see that people with black hair have brown eyes at higher rates than the population average, and people with blonde hair have brown eyes at lower rates than the population average. 
+There should be approximately 37% of brown-eyed individuals in each group, but we see that people with black hair have brown eyes at higher rates than the population average, and people with blonde hair have brown eyes at lower rates than the population average: 
 
 ```{r}
 # margin=1 calculates proportions by row; each row sums to 1
@@ -542,16 +553,18 @@ m %>% prop.table( margin=1 ) %>% round(2)
 
 ```
 
-In other words, hair color and eye color are NOT independent. They are, in fact, correlated. 
+
+If hair color and eye color are correlated, then knowing something about hair color would give us additional information about the likely eye color of a person. If so, then these variables are **NOT independent**. Hair color and eye color are, in fact, correlated. 
 
 The mosaic plot in the **vcd** package provides a nice visualization of these cross-tabs:
 
 ```{r}
 vcd::mosaic( m, shade=TRUE, legend=TRUE )
 ```
-Cells are sized to represent total proportion. Blue signifies cells where we observe more cases then expected **when the factors are independent**, and red signifies there are less cases observed than expected. 
 
-Note that the "brown hair" row is all gray, meaning that people with brown hair have eye colors that approximately match the population. Glancing back at the table we see this is true.
+Cells are sized to represent the proportion of each hair-eye combination in the sample. Blue signifies cells where we observe **MORE** cases **than expected** if the factors were actually independent, and red signifies there are fewer cases observed than expected under the assumption of independence. 
+
+Note that the "brown hair" row is all gray, meaning that people with brown hair have eye colors that approximately match the population proportions. Glancing back at the table we see this is true.
 
 ```{r, echo=T}
 population <- ( apply( m, MARGIN=2, FUN=sum ) / sum(m) ) %>% round(2)
@@ -561,19 +574,23 @@ m3 <- rbind( population, brown.hair )
 m3 %>% pander()
 ```
 
-And then, of course, the groups will never be mathematically identical (the row proportions all the same as the population proportions) so we need a test for significance, which is what the chi-square test provides: 
+Similar to how flipping a fair coin is unlikely to produce exactly 50 heads (it will usually be one or two off by chance), independent categorical factors will never have mathematically identical proportions (the row proportions all the same as the population proportions) so we need a test for significance.
+
+**The chi-square test**
+
+The chi-square statistic provides a test for independence of two factors:
 
 ```{r}
 chisq.test( m )
 ```
 
-The p-value is less than 0.05, so the factor levels are **dependent**, i.e. they are correlated. Thus, if we know something about hair color then we can make a better prediction of eye color. 
+In this example the p-value is less than 0.05, so **the factor levels are dependent**, i.e. they are correlated. Thus, if we know something about the hair color of an individual then we can more accurately predict their eye color. 
 
-If we know the person's hair color is blonde, we should guess their eyes are blue, not brown. 
+The most common eye color in the sample is brown. But if we know the person's hair is blonde, we should guess their eyes are blue. 
 
 ------
 
-In the program evaluation context the column factor would describe the sample, e.g. race or gender, and the row factor would be the treatment and control categories. 
+In the program evaluation context the column factor would describe traits of individuals in the sample, e.g. race or gender, and the row factor would be the treatment and control categories. 
 
 The test for independence would tell us whether proportions of levels of the factor are more-or-less equal in the treatment and control groups. 
 
@@ -588,7 +605,7 @@ t <- table( study.group, gender )
 t %>% prop.table( margin=1 ) %>% round(2) %>% pander()
 ```
 
-We see that we have approximately one-third female in each study group. The chi-square test shows us that the groups are equivalent on this measure (the test is NOT statistically significant): 
+We see that we have approximately one-third female in each study group. The chi-square test shows us that the groups are equivalent or independent on this measure (the test is NOT statistically significant): 
 
 ```{r}
 chisq.test( t )
@@ -604,50 +621,78 @@ chisq.test( t )
 ## P-Value Corrections for Omnibus Tests 
 
 
-In the examples above each **contrast** is a test for **group differences for individual variables**. 
+In the examples above each **contrast** is a test for **group differences or the dependence of a single trait**. 
 
-But how do we know if collectively the groups are equivalent across a bunch of variables? 
+But how do we know collectively if the groups are equivalent when we have lots of measured characteristics? If they differ on a single trait then do we throw out all group equivalence? 
 
 ![](figures/group-equivalence-table.png)
 
-The is no specific test that compares a bunch of variables at once. Instead the criteria is that if none of the variables are statistically different then the groups are considered equivalent. 
+Since we cannot use a t-test or chi-square to compare a bunch of variables at once, we must apply the criteria that none of the contrasts are statistically significant to establish group equivalence. 
 
 There is a problem here, though!
 
-Our decision criteria allows for Type I errors (incorrectly identifying difference that don't actually exist) five percent of the time. So let's assume that we are comparing 20 group attributes in our table. Assuming group equivalence, if the probability of a Type I error is five percent **for a single variable** what happens if we **test 20 variables at the same time**? What is the likelihood that we observe **at least one contrast with a p-value below 0.05** when the groups are statistically identical, leading us to incorrectly conclude that the groups are not equivalent? 
+The decision criteria of alpha=0.05 allows for Type I errors (incorrectly identifying difference that don't actually exist) five percent of the time. So let's assume that we are comparing 20 group attributes in our table. 
+
+Assuming that the groups are in fact equivalent, if the probability of a Type I error is five percent **for each variable** what happens if we **conduct 20 contrasts at the same time**? What is the likelihood that we observe **AT LEAST ONE contrast with a p-value below 0.05** when the groups are statistically equivalent? 
 
 It's a lot more than 0.05 if we perform 20 independent contrasts and use the same decision criteria for rejecting the null that we use for a single test. 
 
-We can demonstrate the issue with a coin-flip example. Assume a set of casinos has started offering a coin flip game (heads the casino wins, tail favors the gamblers). Regulators visit the casinos each month to inspect their coins to make sure they are fair. 
+We can demonstrate the issue with a coin-flip example. Assume a casino has started offering a coin flip game (if the flip is heads the casino wins, tails and the gambler wins). State regulators visit the casino each month to inspect their games to make sure they are fair and the casino is not cheating. 
 
-They have decided on a test: they flip the same coin FOUR times to inspect outcomes. The probability of getting heads one one flip should be 0.5, so the probabily of getting heads all four times is:
+They have decided on a test: they flip the same coin FOUR times to inspect outcomes. The probability of getting heads one flip should be 0.5, so the probabily of getting heads all four times is:
 
 (0.5)(0.5)(0.5)(0.5) = 0.0625
 
-To keep things simple the regulating agency says if this occurs the casino gets fined. Similar to a hypothesis-testing scenario, in 6.25 percent of the visits to casinos that are actually using fair coins they will unjustly receive a fine (a Type I error). 
+To keep things simple the regulating agency says if this occurs the casino gets fined. Similar to a hypothesis-testing scenario, **casinos that are using fair coins they will unjustly receive a fine 6.25 percent of the time** (a Type I error). 
 
-The regulator and the casino owners have agree that it's an appropriate test because the alternatives to this simple test are expensive and time-consuming (the fair casino is better off paying 1 fine approximately every 20 visits than to pay for monthly audits). 
+The regulator and the casino owners have agree that it's an appropriate test because the alternatives to this simple test are expensive and time-consuming (the fair casino is better off paying 1 fine approximately every 20 visits than to pay for more extensive monthly audits). 
 
-One of the regulators proposes they can increase the sample size to improve the accuracy of the tests (sounds reasonable, right?). They will now flip the coin TEN times instead of four. HOWEVER, they do not adjust the decision criteria that triggers a fine. 
+One of the regulators proposes they can increase the sample size to improve the accuracy of the tests (sounds reasonable, right?). They will now flip the coin TEN times instead of four. HOWEVER, they do not adjust the decision criteria. 
 
-Now, if at least four or of ten flips are heads, then the casino is fined. 
+Now, if at least four or of ten flips are heads, then the casino is still fined. 
 
-Did the larger sample size improve the accuracy of the process? Obviously not. On average 5 out of 10 coins should turn up heads, so a majority of the time there will be at least four heads in ten trials. 
+Did the larger sample size improve the accuracy of the process? Is this a good decision criteria? 
 
-Instead of increasing the accuracy of the test, the regulatory agency has significantly increase the rate of Type I errors! Casinos with fair coins will be paying fines more often.
+Obviously not. With ten coins we expect five to be heads (which happens about 1/4 of the time). With that many flips there is an 82 percent chance of getting 4 or more heads, so now the casino is paying a fine 8 visits out of 10 when the coin is fair instead of 1 in 20. 
 
-The problem is that they wanted to keep the same confidence level for this test, but they did this by keeping the same decision criteria from the earlier process (if four or more heads are observed the coins are considered unfair). 
+**Likelihood of each outcome:**
+
+```{r, echo=F}
+n <- 10
+k <- 9
+p <- 0.5
+# choose( n=n, k=k )
+
+x <- NULL
+for( k in 0:10 )
+{
+x[k+1] <- choose( n=n, k=k ) * ( p ^ k  ) * ( (1-p) ^ (n-k) )
+}
+
+d <- data.frame( heads=(0:10), prob=round(x,3) )
+
+d %>% pander()
+```
+
+
+Instead of increasing the accuracy of the test, the regulatory agency has significantly increase the rate of Type I errors! Casinos with fair coins will not be happy.
+
+The regulators wanted to increase the sample size so they would not be increase power, but they kept the same decision criteria from the earlier process (if four or more heads are observed the coins are considered unfair). 
 
 What they should have done was **select the desired confidence level (0.0625 to be consistent with the original process) and then determine a new decision rule that will fail approximately six percent of the time when the groups are actually equivalent.**
 
-Similarly, if we are now conducting 20 contrasts and each has a Type I error rate of 0.05 then there is a high probability that one out of 20 tests have p-values below 0.05 by chance. 
+According to the table above, the likelihood of getting 8 or more heads in 10 fair coin flips is 0.055. So that would be an appropriate threshold. 
+
+Analogously, if we want to determine group equivalency but we are conducting 20 contrasts instead of one, then we can't use the same decision criteria as when we are just testing a single contrast (alpha=0.05). Otherwise we will be greatly increasing the Type I error rate since there is a high probability that at least one out of 20 tests have p-values below 0.05 by chance. 
 
 **We need to define a new decision criteria for the omnibus scenario - testing all hypothses together.**
 
+<br>
+<br>
 
 ----
 
-SIDE NOTE - not required for the lab.
+**SIDE NOTE** - not required for the lab.
 
 If you are curious, the probability of getting all heads is easy to calculate since it would simply entail ten heads in a row, each with a probability of 0.5:  $$(0.5)^{10} = 0.00097$$ or approximately one in a thousand.
 
@@ -714,6 +759,11 @@ So using any criteria less than 8 would result in a higher Type I error rate tha
 
 ----
 
+<br>
+<br>
+
+### The Bonferroni Correction
+
 
 Recall that the p-value is the probability of observing a statistically significant difference (of means or table proportions) when the groups were in fact equivalent. 
 
@@ -725,6 +775,7 @@ What happens, though, when we scale up from a contrast to a blanket statement th
 
 ---
 
+
 Testing 20 contrasts at once and rejecting group equivalence if any 1 contrast is significant will results in a Type I error rate that is too high, so we need a new decision criteria that lowers it back to the original 0.05 rate. 
 
 It turns out, if we divide our the original alpha by the number of contrasts in the table and use that as our decision criteria, we are back to a scenario where we experience Type I errors only 5 percent of the time. 
@@ -733,9 +784,9 @@ This is called **The Bonferroni Correction**. It is applied in **omnibus hypothe
 
 > **Bonferroni Corrected alpha = original alpha / number of contrasts**
 
-After the Bonferroni Correction, the new alpha will be 0.05 / 20 contrasts, or **0.0025**.
+After the Bonferroni Correction, **the new alpha will be 0.05 / 20 contrasts, or 0.0025**.
 
-The new decision criteria is that the p-value needs to be below 0.0025 in order to reject the NULL of equivalence for a variable. Using these criteria we expect to reject the group equivalence NULL 5 percent of the time, so we are back to the same Type I Error rate that we are comfortable with. 
+The new decision criteria is that **the p-value needs to be below 0.0025 in order to reject the NULL of group equivalence**. Using these criteria we expect to reject the group equivalence NULL 5 percent of the time, so we are back to the same Type I Error rate that we are comfortable with. 
 
 ----
 
@@ -883,7 +934,7 @@ chisq.test( t, simulate.p.value=TRUE, B=10000 )
 
 * Variable Name: **edu.level** 
 * Variable Type: **factor** 
-* Survey question: ****
+* Survey question: **What is the highest level of education you have achieved?**
 
 
 ## Question 2 
