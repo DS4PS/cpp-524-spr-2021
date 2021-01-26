@@ -4,7 +4,7 @@ layout: default
 session:
   week0: 'https://asu.zoom.us/rec/share/S9f4_FfCJMMbgzJlzh21IfhZ8zbbHwAwmSzXnAiLpue9k22h8M9HIceNQd7Hkh4.-DB46bIIRmW71PYY'
   week1: 'https://asu.zoom.us/rec/share/NAMz6VZLnbFLocoEjMSDvJTp0aq0QC9KqtRgcdd74qBH5N8g8uMXJoYHLsCIj2yw.K41RJVgwFdlsVLLR'
-  week2: 'https://asu.zoom.us/rec/play/Q9CyZUKZxak1VM9-XNR01FAWN5UmLqFMEkurQGatnWtWLZNKm4AhjtX9EtAcmrea_RU2o5LSmEONpM53.eELpVMPB9fTnomWn?autoplay=true'
+  week2: 'https://asu.zoom.us/rec/share/ykQW7UWGDSjF21bdQv1oS7_7LwA0cPsVp5CqZ128o6U5JjkAHw8VwIc8N2WX7qXm.aoX8wGkjjqRNT_DO'
 
 password: 
   week0: '#Myh6Xy!'
