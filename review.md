@@ -4,10 +4,12 @@ layout: default
 session:
   week0: 'https://asu.zoom.us/rec/share/S9f4_FfCJMMbgzJlzh21IfhZ8zbbHwAwmSzXnAiLpue9k22h8M9HIceNQd7Hkh4.-DB46bIIRmW71PYY'
   week1: 'https://asu.zoom.us/rec/share/NAMz6VZLnbFLocoEjMSDvJTp0aq0QC9KqtRgcdd74qBH5N8g8uMXJoYHLsCIj2yw.K41RJVgwFdlsVLLR'
+  week2: 'https://asu.zoom.us/rec/play/Q9CyZUKZxak1VM9-XNR01FAWN5UmLqFMEkurQGatnWtWLZNKm4AhjtX9EtAcmrea_RU2o5LSmEONpM53.eELpVMPB9fTnomWn?autoplay=true'
 
 password: 
   week0: '#Myh6Xy!'
   week1: 'm5sJY$cm'
+  week2: '5.Y1f$T6'
 
 ---
 
@@ -99,7 +101,24 @@ Introduction to the Course
 <br>
 <br>
 
+## Week 2 - Mon Jan 25th
+  
+<p align="center">
+  <a href="{{ page.session.week2 }}">
+  <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
+  <a>
+  <br> Passcode: <b> {{ page.password.week2 }} </b>
+    
+  <br>
 
+</p>
+
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 
 </div>
