@@ -11,7 +11,7 @@ password:
   week0: '#Myh6Xy!'
   week1: 'm5sJY$cm'
   week2: '5.Y1f$T6'
-  week3: 'Fhh*4*2B'
+  week3: 'Fhh\*4\*2B'
 
 ---
 
