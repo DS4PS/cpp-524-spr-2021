@@ -6,13 +6,15 @@ session:
   week1: 'https://asu.zoom.us/rec/share/NAMz6VZLnbFLocoEjMSDvJTp0aq0QC9KqtRgcdd74qBH5N8g8uMXJoYHLsCIj2yw.K41RJVgwFdlsVLLR'
   week2: 'https://asu.zoom.us/rec/share/ykQW7UWGDSjF21bdQv1oS7_7LwA0cPsVp5CqZ128o6U5JjkAHw8VwIc8N2WX7qXm.aoX8wGkjjqRNT_DO'
   week3: 'https://asu.zoom.us/rec/share/PI40VPYJPhge640hgoBi14-YzdvPTS15Z6Mk1M90cb8V-bUpGM0wZbk-auZ85UYP.UbRzx62wATNCCTIY'
+  week5: 'https://asu.zoom.us/rec/share/fD6tu8qzlHzGkH47HEX8xNCIS-bZ4paDn6UgJVyxn1OXMohdHE-Ly9p2i13skbiO.Yc2PyEfwJNhFwm70'
 
 password: 
   week0: '#Myh6Xy!'
   week1: 'm5sJY$cm'
   week2: '5.Y1f$T6'
   week3: 'Fhh\*4\*2B'
-
+  week5: 'Nq44j&f0'
+ 
 ---
 
 <div class = "uk-container uk-container-small">
