@@ -7,6 +7,7 @@ session:
   week2: 'https://asu.zoom.us/rec/share/ykQW7UWGDSjF21bdQv1oS7_7LwA0cPsVp5CqZ128o6U5JjkAHw8VwIc8N2WX7qXm.aoX8wGkjjqRNT_DO'
   week3: 'https://asu.zoom.us/rec/share/PI40VPYJPhge640hgoBi14-YzdvPTS15Z6Mk1M90cb8V-bUpGM0wZbk-auZ85UYP.UbRzx62wATNCCTIY'
   week5: 'https://asu.zoom.us/rec/share/fD6tu8qzlHzGkH47HEX8xNCIS-bZ4paDn6UgJVyxn1OXMohdHE-Ly9p2i13skbiO.Yc2PyEfwJNhFwm70'
+  week6: 'https://asu.zoom.us/rec/share/75_z4U6lThX8-TgO1ho56dIOYEopP588pDf92sqSVJiqz0eGv1qSu2hgJvM2P-WY.uY0KJgPjFWbUFgGp'
 
 password: 
   week0: '#Myh6Xy!'
@@ -14,6 +15,8 @@ password:
   week2: '5.Y1f$T6'
   week3: 'Fhh\*4\*2B'
   week5: 'Nq44j&f0'
+  week6: 'fj^w=93q'
+ 
  
 ---
 
@@ -143,6 +146,45 @@ Introduction to the Course
 <br>
 <br>
 
+
+
+## Week 5 - Mon Feb 15th
+  
+<p align="center">
+  <a href="{{ page.session.week5 }}">
+  <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
+  <a>
+  <br> Passcode: <b> {{ page.password.week5 }} </b>
+    
+  <br>
+
+</p>
+
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## Week 6 - Mon Feb 22
+  
+<p align="center">
+  <a href="{{ page.session.week6 }}">
+  <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
+  <a>
+  <br> Passcode: <b> {{ page.password.week6 }} </b>
+    
+  <br>
+
+</p>
+
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 </div>
 
