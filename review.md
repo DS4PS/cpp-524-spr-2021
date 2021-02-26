@@ -201,6 +201,7 @@ Introduction to the Course
 </p>
 
 [Study Guide](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/cpp-524-final-exam-study-guide.pdf) for the final exam. 
+[Practice Questions](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/final-exam-practice-questions.pdf)  
 
 
 
