@@ -854,7 +854,7 @@ By the time you are done writing up details you will likely have 10 to 20 pages 
 
 ## Final Exam
 
-[Study Guide](../final-exam/cpp-524-final-exam-study-guide.pdf)
+[Study Guide](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/cpp-524-final-exam-study-guide.pdf)
 
 
 *** { @unit = "FEB 27 - MARCH 2", @title = "Final Exam Open", @assignment, @foldout }
