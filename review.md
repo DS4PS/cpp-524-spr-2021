@@ -186,6 +186,30 @@ Introduction to the Course
 <br>
 <br>
 
+
+
+## Week 7 - Fri Feb 26th
+  
+<p align="center">
+  <a href="{{ page.session.week7 }}">
+  <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
+  <a>
+  <br> Passcode: <b> {{ page.password.week7 }} </b>
+    
+  <br>
+
+</p>
+
+[Study Guide](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/cpp-524-final-exam-study-guide.pdf) for the final exam. 
+
+
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 </div>
 
 <br> 
