@@ -190,18 +190,26 @@ Introduction to the Course
 
 ## Week 7 - Fri Feb 26th
   
-<p align="center">
-  <a href="{{ page.session.week7 }}">
-  <img width="300" src="https://raw.githubusercontent.com/DS4PS/cpp-527-spr-2021/master/assets/img/play-video-icon2.png">
-  <a>
-  <br> Passcode: <b> {{ page.password.week7 }} </b>
-    
-  <br>
+There were no questions for the review session on Friday, so no video. 
 
-</p>
+If you have any questions about material on the review please post to the discussion board. 
 
-[Study Guide](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/cpp-524-final-exam-study-guide.pdf) for the final exam. 
-[Practice Questions](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/final-exam-practice-questions.pdf)  
+* [Study Guide](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/cpp-524-final-exam-study-guide.pdf) for the final exam.  
+* [Practice Questions](https://github.com/DS4PS/cpp-524-spr-2021/raw/main/final-exam/final-exam-practice-questions.pdf)  
+
+I am available for office hours Monday or Tuesday. 
+
+The exam is designed mostly for an opportunity to review content so that the big picture will become clear. If you have done well on labs throughout the semester and felt good about material you should be OK on the exam. It is designed to be integrative, not onerous. 
+
+Expect questions like, what sort of estimator is appropriate for different research questions? Or, explain the difference in the interpretation of b1 when X is continuous versus when X is a binary (treat=1, treatment=200mg caffeine) dummy variable. Questions that test your ability to apply core concepts and adapt models to the specific context of the study. 
+
+```
+heart_rate = b0 + b1(caffeine) + e     
+  vs
+heart_rate = b0 + b1(treat_dummy) + e
+```
+
+
 
 
 
