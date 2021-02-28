@@ -201,7 +201,7 @@ I am available for office hours Monday or Tuesday.
 
 The exam is designed mostly for an opportunity to review content so that the big picture will become clear. If you have done well on labs throughout the semester and felt good about material you should be OK on the exam. It is designed to be integrative, not onerous. 
 
-Expect questions like, what sort of estimator is appropriate for different research questions? Or, explain the difference in the interpretation of b1 when X is continuous versus when X is a binary (treat=1, treatment=200mg caffeine) dummy variable. Questions that test your ability to apply core concepts and adapt models to the specific context of the study. 
+Expect questions like, which estimator is appropriate for a specific research domain? Or, explain the difference in the interpretation of b1 when X is continuous versus when X is a binary (treat=1, treatment=200mg caffeine) dummy variable. Questions that test your ability to apply core concepts and adapt models to the specific context of the study. 
 
 ```
 heart_rate = b0 + b1(caffeine) + e     
